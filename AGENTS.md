@@ -1,25 +1,23 @@
 # Repository Guidelines
 
-## Project Structure & Module Organization
+## Project Structure
 
-This repository is currently empty. As code is added, group related source files by feature or component, keep tests close to the code they cover or in a clearly named `tests/` directory, and place reusable assets in `assets/`. Document any new top-level directories here.
+This repository indexes public reverse engineering work for the first-generation Sony ZV-E10 (ILCE-ZV-E10). `README.md` is the English index, `README.zh-CN.md` is the Chinese index, and `CONTRIBUTING.md` describes how to suggest or review entries. The repository links to external projects; it does not distribute their code or firmware.
 
-## Build, Test, and Development Commands
+## Adding and Updating Entries
 
-No build system, development server, or test runner is configured yet. When introducing one, document the prerequisites and exact commands in this section and in the project README. Prefer commands that work from the repository root and make setup reproducible.
+Organize entries under camera firmware and software reverse engineering or software compatibility patches. Include the project link, its concrete work, relevant firmware or software versions, and known limitations. Check the project's source or documentation for a direct connection to the original ZV-E10 and evidence of substantial original work; for forks, identify what was added. Exclude empty projects, pseudo-open-source projects and forks without meaningful changes.
 
-## Coding Style & Naming Conventions
+Record available license information and known attribution concerns without assuming that public source grants redistribution rights. Distinguish author-reported results from independently verified findings, and simulator results from hardware tests. Do not claim a project is verified without evidence.
 
-Follow the conventions of the language and surrounding code. Use consistent indentation within each file, descriptive names, and lowercase, hyphenated names for general documentation files where practical. Add formatter or linter configuration alongside the first implementation, and document how to run it. Avoid committing generated files unless they are needed by the project.
+## Documentation and Verification
 
-## Testing Guidelines
+Keep the English and Chinese indexes consistent when adding, changing or removing entries. Preserve language-switch links, risk notices and applicable version restrictions. Use concise Markdown and keep table rows contiguous: blank lines inside a table break its rendering. Preview both files and check changed links. Run `git diff --check` to catch whitespace errors; there is no build system or automated test suite.
 
-No testing framework or coverage target is currently defined. Add automated tests for new behavior and regression fixes when a test framework is introduced. Name tests to identify the component and behavior being checked, and document the command for running the full suite. Report any checks that could not be run in the pull request.
+## Commits and Pull Requests
 
-## Commit & Pull Request Guidelines
+Use short, imperative commit subjects, such as `Add firmware research project`. Keep changes focused. Pull requests should explain the change, link relevant issues or upstream evidence, and state what was checked. Include screenshots only when useful for a rendering change.
 
-There is no Git history available from which to infer a commit convention. Write short, imperative commit subjects that describe the change, such as `Add firmware parsing utility`. Keep commits focused. Pull requests should explain the purpose and behavior of the change, link relevant issues, and describe verification performed. Include screenshots when a change affects a visual interface.
+## Security and Configuration
 
-## Security & Configuration
-
-Keep credentials, private keys, and machine-specific configuration out of the repository. Provide sanitized examples for required settings and document how contributors should supply them locally.
+Do not commit camera firmware, device backups, keys, credentials or machine-specific configuration. Preserve the README warnings about device damage, warranty and compliance risks.
