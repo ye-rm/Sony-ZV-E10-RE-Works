@@ -14,6 +14,8 @@ An index of public reverse engineering research, tools and compatibility patches
 
 Projects should publicly provide substantial source code, documentation or tools and include work of their own. Review focuses on substance and relevance; license information is provided for reference. Public source code does not automatically grant redistribution rights. Empty projects, pseudo-open-source projects and forks without substantial changes are excluded. See [CONTRIBUTING.md](CONTRIBUTING.md) for review guidance.
 
+Contributions are welcome: please open an issue or pull request to suggest more reverse engineering work, correct an entry, or report a broken link.
+
 ## Firmware reverse engineering and research
 
 | Project | Work and status | License and notes |
@@ -42,4 +44,8 @@ Projects should publicly provide substantial source code, documentation or tools
 | --- | --- |
 | [nolan2628/Sony-ZVE-10-Camtool](https://github.com/nolan2628/Sony-ZVE-10-Camtool) | Contains service-mode and backup tools, but its README explicitly grants no open-source license or permission for redistribution or reuse. |
 
-Firmware, partition and recovery operations can cause data loss or render a camera unbootable. Consult each project's supported firmware versions, backup instructions and recovery procedures.
+## Risks
+
+Listed projects may not have been independently verified. Firmware, partition and recovery operations can cause data loss, damage the camera or render it unbootable, and may affect warranty coverage. Consult each project's supported firmware versions, backup instructions and recovery procedures before use.
+
+Reverse engineering and modifications may also carry compliance risks. Applicable laws, regulations, license terms and wireless requirements depend on the activity and jurisdiction; assess them before proceeding.
