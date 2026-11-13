@@ -8,15 +8,14 @@
 
 ## 收录范围
 
-- ZV-E10 固件、硬件、协议及运行环境的逆向研究或文档。
-- 专门用于 ZV-E10 逆向、备份、分析或恢复的工具。
+- 相机固件和软件的逆向研究与修改，包括相关研究、备份和恢复工具。
 - 修改原本不支持一代 ZV-E10 的软件以实现兼容的补丁。
 
 要求公开实质性源码、文档或工具，并有项目自身的实际工作。重点审查内容及与机型的关系，许可证信息作为参考；公开源码不代表自动取得再分发许可。空仓库、伪开源和没有实质改动的 fork 不收录。具体审查方法见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 欢迎提出 issue 或 pull request，推荐更多逆向工作、修正条目或报告失效链接。
 
-## 固件逆向与研究
+## 相机固件与软件的逆向修改
 
 | 项目 | 可核查的工作与状态 | 许可及待审查 |
 | --- | --- | --- |
@@ -24,10 +23,6 @@
 | [cokeenet/zve10-qemu](https://github.com/cokeenet/zve10-qemu) | 包含 QEMU 启动补丁、研究笔记和硬件恢复工具；新菜单移植据作者说明已在 QEMU 中运行，尚待相机验证。 | 项目含 [LICENSE](https://github.com/cokeenet/zve10-qemu/blob/main/LICENSE) 和 [NOTICE](https://github.com/cokeenet/zve10-qemu/blob/main/NOTICE.md)；需核对各部分许可。 |
 | [ZV-E10-5GHz-WiFi-Unlock](https://github.com/dino2048/ZV-E10-5GHz-WiFi-Unlock) | 提供一代相机原生 5 GHz Wi-Fi 菜单解锁的技术笔记和工具；作者报告在固件 2.02、2.03 上验证，中国大陆配置完成连接测试。 | MIT；使用时参阅项目的地区及频段说明。 |
 
-## 逆向与恢复工具
-
-| 项目 | 可核查的工作与状态 | 许可及说明 |
-| --- | --- | --- |
 | [dino2048/zv-e10-toolkit](https://github.com/dino2048/zv-e10-toolkit) | 包含 USB 服务接口备份、BootROM 读取及 fastboot 分区恢复工具；作者报告 2.02、2.03 的实机验证记录。 | 仓库标注 MIT；作者注明部分移植代码的上游未声明再分发许可。 |
 | [zve10-shutter-sound-tool](https://github.com/Mrliujunwen/zve10-shutter-sound-tool) | Windows 源码工具，管理已安装对应电子快门声音补丁的 2.02 相机的音效和音量；不安装该补丁。作者说明重构后的协议层尚未重新进行实机验证。 | 许可信息待核查；仅支持项目列明的补丁固件。 |
 

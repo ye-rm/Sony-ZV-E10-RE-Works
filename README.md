@@ -8,15 +8,14 @@ An index of public reverse engineering research, tools and compatibility patches
 
 ## Scope
 
-- Reverse engineering research or documentation on ZV-E10 firmware, hardware, protocols and runtime environments.
-- Tools specifically for ZV-E10 research, backup, analysis or recovery.
+- Reverse engineering and modifications of the camera's firmware and software, including related research, backup and recovery tools.
 - Patches that adapt software which did not originally support the first-generation ZV-E10.
 
 Projects should publicly provide substantial source code, documentation or tools and include work of their own. Review focuses on substance and relevance; license information is provided for reference. Public source code does not automatically grant redistribution rights. Empty projects, pseudo-open-source projects and forks without substantial changes are excluded. See [CONTRIBUTING.md](CONTRIBUTING.md) for review guidance.
 
 Contributions are welcome: please open an issue or pull request to suggest more reverse engineering work, correct an entry, or report a broken link.
 
-## Firmware reverse engineering and research
+## Camera firmware and software reverse engineering
 
 | Project | Work and status | License and notes |
 | --- | --- | --- |
@@ -24,10 +23,6 @@ Contributions are welcome: please open an issue or pull request to suggest more 
 | [cokeenet/zve10-qemu](https://github.com/cokeenet/zve10-qemu) | QEMU boot patches, research notes and hardware recovery tools. The author reports that the new-menu port works in QEMU but awaits camera validation. | See [LICENSE](https://github.com/cokeenet/zve10-qemu/blob/main/LICENSE) and [NOTICE](https://github.com/cokeenet/zve10-qemu/blob/main/NOTICE.md); individual components need review. |
 | [ZV-E10-5GHz-WiFi-Unlock](https://github.com/dino2048/ZV-E10-5GHz-WiFi-Unlock) | Technical notes and tools for unlocking the original camera's native 5 GHz Wi-Fi menu. The author reports validation on firmware 2.02 and 2.03 and connection tests with the mainland China configuration. | MIT; consult the project's regional and frequency-band guidance. |
 
-## Reverse engineering and recovery tools
-
-| Project | Work and status | License and notes |
-| --- | --- | --- |
 | [dino2048/zv-e10-toolkit](https://github.com/dino2048/zv-e10-toolkit) | USB service-interface backup, BootROM reading and fastboot partition recovery tools. The author reports hardware validation records for 2.02 and 2.03. | Repository marked MIT; the author notes that upstream code used for some ports does not state a redistribution license. |
 | [zve10-shutter-sound-tool](https://github.com/Mrliujunwen/zve10-shutter-sound-tool) | Windows source tool for managing sounds and volume on 2.02 cameras with a specified electronic shutter sound patch already installed; it does not install the patch. The author says the refactored protocol layer has not yet been revalidated on hardware. | License information pending; supports only the patched firmware identified by the project. |
 
