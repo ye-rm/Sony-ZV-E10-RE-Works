@@ -4,7 +4,7 @@
 
 收集针对 **Sony ZV-E10 一代（ILCE-ZV-E10）** 的公开逆向研究、工具和兼容性补丁。ZV-E10 II 是不同机型；仅在项目明确涉及一代时列入。本仓库是链接索引，不分发固件或第三方代码，与 Sony 无关联。
 
-> **初步审查稿 · 2026-11-13**：下列项目是候选项，并非已完成许可证合规审计。功能和验证状态来自项目自身说明，未在本仓库复现。欢迎先审查，再决定正式收录。
+> **初步审查稿 · 2026-11-13**：下列项目是候选项，并非已完成许可证合规审计。除特别注明外，功能和验证状态来自项目自身说明。[ye-rm](https://github.com/ye-rm) 已初步测试软件兼容性补丁；相机硬件和系统修改尚未由其验证。欢迎先审查，再决定正式收录。
 
 ## 收录范围
 
@@ -29,8 +29,8 @@
 
 | 项目 | 可核查的工作与状态 | 许可及待审查 |
 | --- | --- | --- |
-| [zv-e10-creators-app-patcher](https://github.com/peiyuanix/zv-e10-creators-app-patcher) | 提供补丁程序和分析文档，使 Android 版 Creators' App 3.5.0 支持一代 ZV-E10；作者称原应用由用户自行提供并在本地修改。 | MIT；需核对依赖与补丁内容的授权。 |
-| [zv-e10-monitor-control-patcher](https://github.com/peiyuanix/zv-e10-monitor-control-patcher) | 包含补丁程序和兼容性分析，针对 Android 版 Monitor & Control 3.0.1；作者报告测试了 USB 和 Wi-Fi 连接。 | MIT；需核对依赖与补丁内容的授权。 |
+| [zv-e10-creators-app-patcher](https://github.com/peiyuanix/zv-e10-creators-app-patcher) | 提供补丁程序和分析文档，使 Android 版 Creators' App 3.5.0 支持一代 ZV-E10；作者称原应用由用户自行提供并在本地修改。[ye-rm](https://github.com/ye-rm) 初步测试认为该补丁以及 PR [#1](https://github.com/peiyuanix/zv-e10-creators-app-patcher/pull/1) 和 [#2](https://github.com/peiyuanix/zv-e10-creators-app-patcher/pull/2) 可用；PR #2 的基本功能已在其手机上测试可用。 | MIT；需核对依赖与补丁内容的授权。 |
+| [zv-e10-monitor-control-patcher](https://github.com/peiyuanix/zv-e10-monitor-control-patcher) | 包含补丁程序和兼容性分析，针对 Android 版 Monitor & Control 3.0.1；作者报告测试了 USB 和 Wi-Fi 连接。[ye-rm](https://github.com/ye-rm) 初步测试认为该补丁可用。 | MIT；需核对依赖与补丁内容的授权。 |
 
 ## 暂不收录：未授予开源许可
 

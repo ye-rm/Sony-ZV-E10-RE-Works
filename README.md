@@ -4,7 +4,7 @@ English | [简体中文](README.zh-CN.md)
 
 An index of public reverse engineering research, tools and compatibility patches for the **first-generation Sony ZV-E10 (ILCE-ZV-E10)**. The ZV-E10 II is a different model; projects are listed only when they explicitly cover the original. This repository links to external work, does not distribute firmware or third-party code, and is not affiliated with Sony.
 
-> **Preliminary review · 2026-11-13:** These are candidates, not projects that have passed a license compliance audit. Features and validation status are reported by the authors and have not been independently reproduced here. The list is open for review before final inclusion.
+> **Preliminary review · 2026-11-13:** These are candidates, not projects that have passed a license compliance audit. Unless noted otherwise, features and validation status are reported by the authors. [ye-rm](https://github.com/ye-rm) has preliminarily tested the software compatibility patches, but has not tested the camera hardware or system modifications. The list is open for review before final inclusion.
 
 ## Scope
 
@@ -29,8 +29,8 @@ Contributions are welcome: please open an issue or pull request to suggest more 
 
 | Project | Work and status | License and notes |
 | --- | --- | --- |
-| [zv-e10-creators-app-patcher](https://github.com/peiyuanix/zv-e10-creators-app-patcher) | Patcher and analysis enabling the original ZV-E10 in Creators' App 3.5.0 for Android. The author says users supply the original app and patch it locally. | MIT; dependencies and patch content need license review. |
-| [zv-e10-monitor-control-patcher](https://github.com/peiyuanix/zv-e10-monitor-control-patcher) | Patcher and compatibility analysis for Monitor & Control 3.0.1 for Android. The author reports testing USB and Wi-Fi connections. | MIT; dependencies and patch content need license review. |
+| [zv-e10-creators-app-patcher](https://github.com/peiyuanix/zv-e10-creators-app-patcher) | Patcher and analysis enabling the original ZV-E10 in Creators' App 3.5.0 for Android. The author says users supply the original app and patch it locally. [ye-rm](https://github.com/ye-rm) reports that the patch and PRs [#1](https://github.com/peiyuanix/zv-e10-creators-app-patcher/pull/1) and [#2](https://github.com/peiyuanix/zv-e10-creators-app-patcher/pull/2) worked in preliminary testing; PR #2's basic functions worked on their phone. | MIT; dependencies and patch content need license review. |
+| [zv-e10-monitor-control-patcher](https://github.com/peiyuanix/zv-e10-monitor-control-patcher) | Patcher and compatibility analysis for Monitor & Control 3.0.1 for Android. The author reports testing USB and Wi-Fi connections. [ye-rm](https://github.com/ye-rm) reports that the patch worked in preliminary testing. | MIT; dependencies and patch content need license review. |
 
 ## Not included: no open-source license
 
