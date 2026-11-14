@@ -32,7 +32,7 @@ Contributions are welcome: please open an issue or pull request to suggest more 
 | [zv-e10-creators-app-patcher](https://github.com/peiyuanix/zv-e10-creators-app-patcher) | Patcher and analysis enabling the original ZV-E10 in Creators' App 3.5.0 for Android. The author says users supply the original app and patch it locally. [ye-rm](https://github.com/ye-rm) reports that the patch and PRs [#1](https://github.com/peiyuanix/zv-e10-creators-app-patcher/pull/1) and [#2](https://github.com/peiyuanix/zv-e10-creators-app-patcher/pull/2) worked in preliminary testing; PR #2's basic functions worked on their phone. | MIT; dependencies and patch content need license review. |
 | [zv-e10-monitor-control-patcher](https://github.com/peiyuanix/zv-e10-monitor-control-patcher) | Patcher and compatibility analysis for Monitor & Control 3.0.1 for Android. The author reports testing USB and Wi-Fi connections. [ye-rm](https://github.com/ye-rm) reports that the patch worked in preliminary testing. | MIT; dependencies and patch content need license review. |
 
-## Not included: no open-source license
+## Projects without an open-source license
 
 | Project | Reason |
 | --- | --- |

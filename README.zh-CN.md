@@ -32,11 +32,11 @@
 | [zv-e10-creators-app-patcher](https://github.com/peiyuanix/zv-e10-creators-app-patcher) | 提供补丁程序和分析文档，使 Android 版 Creators' App 3.5.0 支持一代 ZV-E10；作者称原应用由用户自行提供并在本地修改。[ye-rm](https://github.com/ye-rm) 初步测试认为该补丁以及 PR [#1](https://github.com/peiyuanix/zv-e10-creators-app-patcher/pull/1) 和 [#2](https://github.com/peiyuanix/zv-e10-creators-app-patcher/pull/2) 可用；PR #2 的基本功能已在其手机上测试可用。 | MIT；需核对依赖与补丁内容的授权。 |
 | [zv-e10-monitor-control-patcher](https://github.com/peiyuanix/zv-e10-monitor-control-patcher) | 包含补丁程序和兼容性分析，针对 Android 版 Monitor & Control 3.0.1；作者报告测试了 USB 和 Wi-Fi 连接。[ye-rm](https://github.com/ye-rm) 初步测试认为该补丁可用。 | MIT；需核对依赖与补丁内容的授权。 |
 
-## 暂不收录：未授予开源许可
+## 无开源许可证的项目
 
 | 项目 | 原因 |
 | --- | --- |
-| [nolan2628/Sony-ZVE-10-Camtool](https://github.com/nolan2628/Sony-ZVE-10-Camtool) | 有服务模式和备份工具，但 README 明确表示未授予开源许可及再分发或复用权限，不符合当前收录标准。 |
+| [nolan2628/Sony-ZVE-10-Camtool](https://github.com/nolan2628/Sony-ZVE-10-Camtool) | 有服务模式和备份工具，但 README 明确表示未授予开源许可及再分发或复用权限。 |
 
 ## 风险提示
 
