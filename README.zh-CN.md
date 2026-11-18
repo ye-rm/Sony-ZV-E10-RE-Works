@@ -4,7 +4,7 @@
 
 收集针对 **Sony ZV-E10 一代（ILCE-ZV-E10）** 的公开逆向研究、工具和兼容性补丁。ZV-E10 II 是不同机型；仅在项目明确涉及一代时列入。本仓库是链接索引，不分发固件或第三方代码，与 Sony 无关联。
 
-> **初步审查稿 · 2026-11-13**：下列项目是候选项，并非已完成许可证合规审计。除特别注明外，功能和验证状态来自项目自身说明。[ye-rm](https://github.com/ye-rm) 已初步测试软件兼容性补丁；相机硬件和系统修改尚未由其验证。欢迎先审查，再决定正式收录。
+> **初步审查稿 · 2026-11-18**：下列项目是候选项，并非已完成许可证合规审计。除特别注明外，功能和验证状态来自项目自身说明。[ye-rm](https://github.com/ye-rm) 已初步测试软件兼容性补丁和 5 GHz Wi-Fi 解锁功能。欢迎先审查，再决定正式收录。
 
 ## 收录范围
 
@@ -21,7 +21,7 @@
 | --- | --- | --- |
 | [qn06142/zv-e10-re](https://github.com/qn06142/zv-e10-re) | 基于 Sony-PMCA-RE 的 fork；新增 ZV-E10 服务模式、固件和资源格式研究，以及 `docs/`、`avcam_re/`、`retool/` 等内容。作者报告 USB 视频实验已在实机验证。 | MIT；需进一步核对新增内容及第三方材料的授权。 |
 | [cokeenet/zve10-qemu](https://github.com/cokeenet/zve10-qemu) | 包含 QEMU 启动补丁、研究笔记和硬件恢复工具；新菜单移植据作者说明已在 QEMU 中运行，尚待相机验证。 | 项目含 [LICENSE](https://github.com/cokeenet/zve10-qemu/blob/main/LICENSE) 和 [NOTICE](https://github.com/cokeenet/zve10-qemu/blob/main/NOTICE.md)；需核对各部分许可。 |
-| [ZV-E10-5GHz-WiFi-Unlock](https://github.com/dino2048/ZV-E10-5GHz-WiFi-Unlock) | 提供一代相机原生 5 GHz Wi-Fi 菜单解锁的技术笔记和工具；作者报告在固件 2.02、2.03 上验证，中国大陆配置完成连接测试。 | MIT；使用时参阅项目的地区及频段说明。 |
+| [ZV-E10-5GHz-WiFi-Unlock](https://github.com/dino2048/ZV-E10-5GHz-WiFi-Unlock) | 提供一代相机原生 5 GHz Wi-Fi 菜单解锁的技术笔记和工具；作者报告在固件 2.02、2.03 上验证，中国大陆配置完成连接测试。ye-rm 使用 Windows 对一台采用该地区配置、运行 2.03 固件的 ZV-E10 进行了初步验证，确认可打开频段菜单，手机也成功连接到相机的 5 GHz 热点。[测试记录 #4](https://github.com/dino2048/ZV-E10-5GHz-WiFi-Unlock/issues/4) | MIT；使用时参阅项目的地区及频段说明。 |
 | [dino2048/zv-e10-toolkit](https://github.com/dino2048/zv-e10-toolkit) | 包含 USB 服务接口备份、BootROM 读取及 fastboot 分区恢复工具；作者报告 2.02、2.03 的实机验证记录。 | 仓库标注 MIT；作者注明部分移植代码的上游未声明再分发许可。 |
 | [zve10-shutter-sound-tool](https://github.com/Mrliujunwen/zve10-shutter-sound-tool) | Windows 源码工具，管理已安装对应电子快门声音补丁的 2.02 相机的音效和音量；不安装该补丁。作者说明重构后的协议层尚未重新进行实机验证。 | 许可信息待核查；仅支持项目列明的补丁固件。 |
 
