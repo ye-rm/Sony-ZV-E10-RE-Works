@@ -2,6 +2,8 @@
 
 English | [简体中文](README.zh-CN.md)
 
+**Last updated** 2026-11-19
+
 An index of public reverse engineering research, tools and compatibility patches for the **first-generation Sony ZV-E10 (ILCE-ZV-E10)**. The ZV-E10 II is a different model; projects are listed only when they explicitly cover the original. This repository links to external work, does not distribute firmware or third-party code, and is not affiliated with Sony.
 
 > **Preliminary review · 2026-11-18:** These are candidates, not projects that have passed a license compliance audit. Unless noted otherwise, features and validation status are reported by the authors. [ye-rm](https://github.com/ye-rm) has preliminarily tested the software compatibility patches and the 5 GHz Wi-Fi unlock. The list is open for review before final inclusion.
@@ -24,6 +26,7 @@ Contributions are welcome: please open an issue or pull request to suggest more 
 | [ZV-E10-5GHz-WiFi-Unlock](https://github.com/dino2048/ZV-E10-5GHz-WiFi-Unlock) | Technical notes and tools for unlocking the original camera's native 5 GHz Wi-Fi menu. The author reports validation on firmware 2.02 and 2.03 and connection tests with the mainland China configuration. In a preliminary Windows test on one ZV-E10 running firmware 2.03 with that configuration, ye-rm confirmed that the band menu opened and a phone connected to the camera’s 5 GHz hotspot. [Test report #4](https://github.com/dino2048/ZV-E10-5GHz-WiFi-Unlock/issues/4) | MIT; consult the project's regional and frequency-band guidance. |
 | [dino2048/zv-e10-toolkit](https://github.com/dino2048/zv-e10-toolkit) | USB service-interface backup, BootROM reading and fastboot partition recovery tools. The author reports hardware validation records for 2.02 and 2.03. | Repository marked MIT; the author notes that upstream code used for some ports does not state a redistribution license. |
 | [zve10-shutter-sound-tool](https://github.com/Mrliujunwen/zve10-shutter-sound-tool) | Windows source tool for managing sounds and volume on 2.02 cameras with a specified electronic shutter sound patch already installed; it does not install the patch. The author says the refactored protocol layer has not yet been revalidated on hardware. | License information pending; supports only the patched firmware identified by the project. |
+| [adeveloper79/sony-a6400-research (`zv-e10`)](https://github.com/adeveloper79/sony-a6400-research/tree/zv-e10) | RAM-only port of the α6400 MTF2 menu touch mod to the original ZV-E10. The author reports hardware testing on firmware 2.02 and 2.03, with touch working in much of the main menu. Some submenus and action items cannot be opened by touch, My Menu does not respond to touch, and the author reports inconsistent touch response on Fn tiles. | [MIT](https://github.com/adeveloper79/sony-a6400-research/blob/zv-e10/LICENSE). The author credits [ivica00/bionz-x-research](https://github.com/ivica00/bionz-x-research) for the original work. |
 
 ## Software compatibility patches
 
