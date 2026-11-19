@@ -27,6 +27,8 @@
 | [dino2048/zv-e10-toolkit](https://github.com/dino2048/zv-e10-toolkit) | 包含 USB 服务接口备份、BootROM 读取及 fastboot 分区恢复工具；作者报告 2.02、2.03 的实机验证记录。 | 仓库标注 MIT；作者注明部分移植代码的上游未声明再分发许可。 |
 | [zve10-shutter-sound-tool](https://github.com/Mrliujunwen/zve10-shutter-sound-tool) | Windows 源码工具，管理已安装对应电子快门声音补丁的 2.02 相机的音效和音量；不安装该补丁。作者说明重构后的协议层尚未重新进行实机验证。 | 许可信息待核查；仅支持项目列明的补丁固件。 |
 | [adeveloper79/sony-a6400-research (`zv-e10`)](https://github.com/adeveloper79/sony-a6400-research/tree/zv-e10) | 将 α6400 的 MTF2 菜单触控修改移植到一代 ZV-E10，仅在 RAM 中运行。作者报告在 2.02 和 2.03 固件上进行了实机测试，主菜单的大部分区域可触控。部分子菜单和操作项无法通过触控打开，「我的菜单」不响应触控，作者也反馈 Fn 菜单磁贴的触控响应不稳定。 | [MIT](https://github.com/adeveloper79/sony-a6400-research/blob/zv-e10/LICENSE)。作者将原始工作归功于 [ivica00/bionz-x-research](https://github.com/ivica00/bionz-x-research)。 |
+| [ivica00/bionz-x-research](https://github.com/ivica00/bionz-x-research) | 同平台 BIONZ X（CXD90045）研究，包含 QEMU 和 Unicorn 仿真、涵盖一代 ZV-E10 的固件映射，以及 α6400 的上游 MTF2 触控修改。项目记录了 α6400 的仿真与实机结果。 | MIT。一代 ZV-E10 的映射见[平台文档](https://github.com/ivica00/bionz-x-research/blob/main/docs/PLATFORM_MODEL.md)。 |
+| [XiaoQAQ10086/ZV-E10-Firmware-Research](https://github.com/XiaoQAQ10086/ZV-E10-Firmware-Research) | 面向 ZV-E10 2.02 和 2.03 固件的 Windows 安装框架，提供写入前检查、备份与回滚。作者报告一台 2.03 相机冷启动后恢复了 5 GHz 菜单，项目尚未测试无线连接。快门音实验在实机上验证了写入与回滚，但相机未播放替换音频。 | MIT。上游署名及组件许可见 [NOTICE](https://github.com/XiaoQAQ10086/ZV-E10-Firmware-Research/blob/main/NOTICE.md)。 |
 
 ## 软件兼容性补丁
 
