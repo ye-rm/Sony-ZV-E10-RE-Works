@@ -2,7 +2,7 @@
 
 English | [简体中文](README.zh-CN.md)
 
-**Last updated:** 2026-11-19
+**Last updated:** 2026-11-20
 
 A curated index of public reverse engineering research, tools, and compatibility patches for the **first-generation Sony ZV-E10 (ILCE-ZV-E10)**. The ZV-E10 II is a different model; projects are listed only when they explicitly cover the original ZV-E10. This repository links to external projects only—it does not distribute firmware or third-party code and is not affiliated with Sony.
 
@@ -33,6 +33,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for review guidance. Contributions are we
 | [adeveloper79/sony-a6400-research (`zv-e10`)](https://github.com/adeveloper79/sony-a6400-research/tree/zv-e10) | RAM-only port of the α6400 MTF2 menu touch mod to the original ZV-E10.<br>**Firmware:** 2.02, 2.03. | **Author-reported:** Hardware-tested on 2.02 and 2.03; touch works across much of the main menu.<br>**Limitations:** Some submenus and action items cannot be opened by touch; My Menu does not respond; inconsistent touch response on Fn tiles. | [MIT](https://github.com/adeveloper79/sony-a6400-research/blob/zv-e10/LICENSE). Credits [ivica00/bionz-x-research](https://github.com/ivica00/bionz-x-research) for the original work. |
 | [ivica00/bionz-x-research](https://github.com/ivica00/bionz-x-research) | Shared BIONZ X (CXD90045) platform research: QEMU and Unicorn emulation, firmware mapping covering the original ZV-E10, and the upstream α6400 MTF2 touch mod. | **Author-reported:** Documents α6400 emulation and hardware results. | MIT. See the [platform model](https://github.com/ivica00/bionz-x-research/blob/main/docs/PLATFORM_MODEL.md) for the ZV-E10 mapping. |
 | [XiaoQAQ10086/ZV-E10-Firmware-Research](https://github.com/XiaoQAQ10086/ZV-E10-Firmware-Research) | Windows installer framework with pre-write checks, backup, and rollback.<br>**Firmware:** 2.02, 2.03. | **Author-reported:** Restored the 5 GHz menu on one 2.03 camera after a cold boot; verified writes and rollback on hardware in the shutter-sound experiment.<br>**Limitations:** RF connectivity is untested in this project; the camera did not play the replacement shutter audio. | MIT. See [NOTICE](https://github.com/XiaoQAQ10086/ZV-E10-Firmware-Research/blob/main/NOTICE.md) for upstream attribution and component licenses. |
+| [nolan2628/ZVE10-Astra-Public](https://github.com/nolan2628/ZVE10-Astra-Public) | Experimental port of the ZV-1M2 ASTRA touch UI to the original ZV-E10, with a [runtime shim](https://raw.githubusercontent.com/nolan2628/ZVE10-Astra-Public/main/src/appFwBoot_g4host.c), QEMU Web touch controls, and build and recovery tools.<br>**Firmware baseline:** ZV-E10 2.03. | **Author-reported:** Shows the new shooting UI and vertical menu on camera hardware, and separately demonstrates touch interaction in QEMU.<br>**Limitations:** Developer-only; requires user-supplied firmware. FL/VV Creative Look processing is incomplete, and custom LUTs require an external solution. | Repository marked MIT. See [THIRD_PARTY_NOTICES.md](https://github.com/nolan2628/ZVE10-Astra-Public/blob/main/THIRD_PARTY_NOTICES.md) for third-party components. |
 
 ## Software compatibility patches
 

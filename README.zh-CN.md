@@ -2,7 +2,7 @@
 
 [English](README.md) | 简体中文
 
-**更新日期**：2026-11-19
+**更新日期**：2026-11-20
 
 本仓库收录针对 **Sony ZV-E10 一代（ILCE-ZV-E10）** 的公开逆向研究、工具与兼容性补丁。ZV-E10 II 属于不同机型，仅当项目明确覆盖一代时才会收录。本仓库仅提供外部项目索引，不分发任何固件或第三方代码，亦与 Sony 无关。
 
@@ -33,6 +33,7 @@
 | [adeveloper79/sony-a6400-research (`zv-e10`)](https://github.com/adeveloper79/sony-a6400-research/tree/zv-e10) | 将 α6400 的 MTF2 菜单触控修改移植到一代 ZV-E10，仅在 RAM 中运行。<br>**适用固件**：2.02、2.03。 | **作者报告**：已在 2.02 与 2.03 上实机测试，主菜单大部分区域支持触控。<br>**已知限制**：部分子菜单与操作项无法触控打开；「我的菜单」无触控响应；Fn 菜单磁贴触控响应不稳定。 | [MIT](https://github.com/adeveloper79/sony-a6400-research/blob/zv-e10/LICENSE)。原始工作归功于 [ivica00/bionz-x-research](https://github.com/ivica00/bionz-x-research)。 |
 | [ivica00/bionz-x-research](https://github.com/ivica00/bionz-x-research) | BIONZ X（CXD90045）同平台研究，涵盖 QEMU 与 Unicorn 仿真、一代 ZV-E10 固件映射及 α6400 上游 MTF2 触控修改。 | **作者报告**：记录了 α6400 的仿真与实机结果。 | MIT。一代 ZV-E10 映射见[平台文档](https://github.com/ivica00/bionz-x-research/blob/main/docs/PLATFORM_MODEL.md)。 |
 | [XiaoQAQ10086/ZV-E10-Firmware-Research](https://github.com/XiaoQAQ10086/ZV-E10-Firmware-Research) | Windows 安装框架，提供写入前检查、备份与回滚功能。<br>**适用固件**：2.02、2.03。 | **作者报告**：在一台 2.03 相机上冷启动后恢复了 5 GHz 菜单；快门音实验已在实机验证写入与回滚。<br>**已知限制**：本项目尚未测试无线连接；相机未播放替换的快门音频。 | MIT。上游署名及组件许可见 [NOTICE](https://github.com/XiaoQAQ10086/ZV-E10-Firmware-Research/blob/main/NOTICE.md)。 |
+| [nolan2628/ZVE10-Astra-Public](https://github.com/nolan2628/ZVE10-Astra-Public) | 将 ZV-1M2 的 ASTRA 触控界面实验性移植到一代 ZV-E10，提供[运行时适配层](https://raw.githubusercontent.com/nolan2628/ZVE10-Astra-Public/main/src/appFwBoot_g4host.c)、QEMU 网页触控界面以及构建与恢复工具。<br>**固件基线**：ZV-E10 2.03。 | **作者报告**：展示了实机上的新版拍摄界面和竖向菜单，并另行演示了 QEMU 中的触控交互。<br>**已知限制**：仅面向开发者，需自备固件。FL/VV 创意外观的底层处理尚未打通，自定义 LUT 需要外部方案。 | 仓库标注 MIT。第三方组件见 [THIRD_PARTY_NOTICES.md](https://github.com/nolan2628/ZVE10-Astra-Public/blob/main/THIRD_PARTY_NOTICES.md)。 |
 
 ## 软件兼容性补丁
 
